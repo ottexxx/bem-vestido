@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    width: 1280px;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    gap: 29px;
+}
+.nav-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: 37px;
+}
+.janela1{
+    background: url(../img/assets/Foto1.png);
+    width: 640px;
+    height: 803px;
+    grid-area: ameba1;
+    display: flex;
+    align-items: flex-end;
+}
+.janela2{
+    background: url(../img/assets/Foto2.png);
+    width: 640px;
+    height: 803px;
+    grid-area: ameba2;
+    display: flex;
+    align-items: flex-end;
+}
+.janela3{
+    background: url(../img/assets/foto3.png);
+    width: 320px;
+    height: 600px;
+    grid-area: ameba3;
+    display: flex;
+    align-items: flex-end;
+}
+.janela4{
+    background: url(../img/assets/foto4.png);
+    width: 320px;
+    height: 600px;
+    grid-area: ameba4;
+    display: flex;
+    align-items: flex-end;
+}
+.janela5{
+    background: url(../img/assets/foto5.png);
+    width: 320px;
+    height: 600px;
+    grid-area: ameba5;
+    display: flex;
+    align-items: flex-end;
+}
+.janela6{
+    background: url(../img/assets/Foto6.png);
+    width: 320px;
+    height: 600px;
+    grid-area: ameba6;
+    display: flex;
+    align-items: flex-end;
+}
+.proton{
+    display: grid;
+    grid-template-areas: 
+    "ameba1 ameba1 ameba2 ameba2"
+    "ameba3 ameba4 ameba5 ameba6";
+}
+.janela7{
+    background: url(../img/assets/Foto7.png);
+    width: 428px;
+    height: 700px; 
+    grid-area: celula1;
+    display: flex;
+    align-items: flex-end; 
+} 
+.janela8{
+    background: url(../img/assets/Foto8.png);
+    width: 428px;
+    height: 700px; 
+    grid-area: celula2;
+    display: flex;
+    align-items: flex-end;
+}
+.janela9{
+    background: url(../img/assets/Foto9.png);
+    width: 425px;
+    height: 700px;
+    grid-area: celula3; 
+    display: flex;
+    align-items: flex-end;
+}
+.proton2{
+    display: grid;
+    grid-template-areas: 
+    "celula1 celula2 celula3";
+}
+.corrimao{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 74px;
+    justify-content: space-between;
+}
+.pano{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 22px;
+}
+.pano p, .corrimao p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.corrimaop{
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+    margin-top: 10px;
+}
+.up{
+    height: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    height: 164px;
+}
+.up p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    
+}
+.down p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+.gambiarra{
+    width: 221px;
+    height: 32.23px;
+    margin-right: 37px;
+}
